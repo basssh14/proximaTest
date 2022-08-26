@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Center stuff */
 .centerSom {
   @apply absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2;
 }
@@ -9,4 +11,44 @@
 }
 .centerHorizontal {
   @apply left-1/2 transform -translate-x-1/2;
+}
+
+/* Test borders */
+
+.testBorderBlack {
+  @apply border-2 border-black;
+}
+
+.testBorderGreen {
+  @apply border-2 border-green-500;
+}
+
+.testBorderWhite {
+  @apply border-2 border-white;
+}
+
+/* Fonts */
+
+.italianaFont {
+  font-family: "Italiana", serif;
+}
+.nunitoFont {
+  font-family: "Nunito Sans", sans-serif;
+}
+.amikoFont {
+  font-family: "Amiko", sans-serif;
+}
+
+/* Glass effect & blur */
+
+.glassEffectDiv {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(196, 196, 196, 0.16);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.bgTransparentWithBlur {
+  filter: blur(5px);
 }
