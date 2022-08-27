@@ -52,3 +52,56 @@
 .bgTransparentWithBlur {
   filter: blur(5px);
 }
+
+/* Gradient background */
+
+.gradient45GrayWhite {
+  background: rgb(187, 186, 186);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(187, 186, 186, 1) 0%,
+    rgba(217, 214, 214, 1) 15%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(187, 186, 186, 1) 0%,
+    rgba(217, 214, 214, 1) 15%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(187, 186, 186, 1) 0%,
+    rgba(217, 214, 214, 1) 15%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bbbaba",endColorstr="#ffffff",GradientType=1);
+}
+.gradientMin45GrayWhite {
+  background: rgb(187, 186, 186);
+  background: -moz-linear-gradient(
+    -270deg,
+    rgba(187, 186, 186, 1) 0%,
+    rgba(217, 214, 214, 1) 15%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  background: -webkit-linear-gradient(
+    -270deg,
+    rgba(187, 186, 186, 1) 0%,
+    rgba(217, 214, 214, 1) 15%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  background: linear-gradient(
+    -270deg,
+    rgba(187, 186, 186, 1) 0%,
+    rgba(217, 214, 214, 1) 15%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bbbaba",endColorstr="#ffffff",GradientType=1);
+}
+
+/* Padding */
+
+.paddingInherit {
+  padding: inherit;
+}

@@ -1,13 +1,9 @@
 import React from "react"
-import Body from "./Components/Layout/Body"
-import Header from "./Components/Layout/Header"
-import Footer from "./Components/Layout/Footer"
+import Landing from "./Components/Layout/Landing"
 function App() {
   return (
     <div className="w-screen h-screen">
-      <Header />
-      <Body />
-      <Footer />
+      <Landing />
     </div>
   )
 }
