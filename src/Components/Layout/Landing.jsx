@@ -48,7 +48,7 @@ export default function Landing() {
       params: serverDataParams,
     })
     //Send alert to user that the data has been sent
-    alert("Data sended to server!")
+    alert("Data sent to server!")
   }
 
   return (
